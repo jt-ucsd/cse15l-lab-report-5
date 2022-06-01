@@ -11,6 +11,7 @@ Links to Tests that Fail:
 ## 488.md
 
 1) For this file, my implementation is correct.
+
 2) The correct answer is that there is one link ``</my uri>`` and we should expect ``[</my uri>]``.
 
 ![488.md File Output](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-report-5/main/Lab%20Report%205%20-%20488.md%20File%20Output.jpg)
@@ -22,6 +23,7 @@ Links to Tests that Fail:
 ## 579.md
 
 1) For this file, my implementation is correct.
+
 2) The correct answer is there is no links and we should expect ``[]``.
 
 ![579.md File Output](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-report-5/main/Lab%20Report%205%20-%20579.md%20File%20Output.jpg)
