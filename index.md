@@ -5,8 +5,8 @@ By: jt
 I found the tests with different results by creating a java file.  The file would loop for each .md file in the folder and run my markdown parser on it and the one provided in lab 9.  Then, it would print out the links along with the file name.  I could then scroll through the output and manually compare.
 
 Links to Tests that Fail:
-1) Link to 488.md
-2) Link to 579.md
+1) Link to [488.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/488.md)
+2) Link to [579.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/579.md)
 
 ## 488.md
 
@@ -28,6 +28,6 @@ Links to Tests that Fail:
 
 ![579.md File Output](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-report-5/main/Lab%20Report%205%20-%20579.md%20File%20Output.jpg)
 
-3. The bug in the program is there is no where that checks if the link is for a link or an image.  We can simply fix this by adding an if condition.
+3. The bug in the program is there is no where that checks if the link is for a link or an image.  We can simply fix this by adding an if condition immediately after finding the open bracket and checking if the character before it is an exclamation point or not.
 
 ![579.md Fix](https://raw.githubusercontent.com/jt-ucsd/cse15l-lab-report-5/main/Lab%20Report%205%20-%20579.md%20File%20Fix.jpg)
